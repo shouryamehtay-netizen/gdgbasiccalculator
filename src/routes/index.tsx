@@ -167,6 +167,6 @@ export function Index() {
         <CalculatorDisplay value={display} expression={expression} errorMessage={errorMessage} />
         <CalculatorKeypad onPress={handleKey} />
       </section>
-    </div>
+    </main>
   );
 }
