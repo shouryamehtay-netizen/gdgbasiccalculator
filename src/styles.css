@@ -73,74 +73,281 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.984 0.003 247.858);
-  --sidebar-foreground: oklch(0.129 0.042 264.695);
-  --sidebar-primary: oklch(0.208 0.042 265.755);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.968 0.007 247.896);
-  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
-  --sidebar-border: oklch(0.929 0.013 255.508);
-  --sidebar-ring: oklch(0.704 0.04 256.788);
+  --radius: 0.5rem;
+  --background: oklch(0.965 0.012 175);
+  --foreground: oklch(0.22 0.025 190);
+  --card: oklch(0.995 0.004 175);
+  --card-foreground: oklch(0.22 0.025 190);
+  --popover: oklch(0.995 0.004 175);
+  --popover-foreground: oklch(0.22 0.025 190);
+  --primary: oklch(0.49 0.12 175);
+  --primary-foreground: oklch(0.99 0.006 175);
+  --secondary: oklch(0.93 0.025 175);
+  --secondary-foreground: oklch(0.27 0.045 180);
+  --muted: oklch(0.945 0.014 175);
+  --muted-foreground: oklch(0.54 0.025 190);
+  --accent: oklch(0.90 0.04 165);
+  --accent-foreground: oklch(0.25 0.04 180);
+  --destructive: oklch(0.57 0.19 28);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.88 0.025 175);
+  --input: oklch(0.88 0.025 175);
+  --ring: oklch(0.55 0.12 175);
+  --chart-1: oklch(0.49 0.12 175);
+  --chart-2: oklch(0.65 0.15 48);
+  --chart-3: oklch(0.58 0.12 220);
+  --chart-4: oklch(0.73 0.13 95);
+  --chart-5: oklch(0.62 0.16 20);
+  --sidebar: oklch(0.995 0.004 175);
+  --sidebar-foreground: oklch(0.22 0.025 190);
+  --sidebar-primary: oklch(0.49 0.12 175);
+  --sidebar-primary-foreground: oklch(0.99 0.006 175);
+  --sidebar-accent: oklch(0.93 0.025 175);
+  --sidebar-accent-foreground: oklch(0.27 0.045 180);
+  --sidebar-border: oklch(0.88 0.025 175);
+  --sidebar-ring: oklch(0.55 0.12 175);
+  --calculator-panel: oklch(0.995 0.004 175);
+  --calculator-display: oklch(0.22 0.025 190);
+  --calculator-display-text: oklch(0.98 0.008 165);
+  --calculator-number: oklch(0.95 0.014 175);
+  --calculator-number-hover: oklch(0.91 0.025 175);
+  --calculator-utility: oklch(0.88 0.045 165);
+  --calculator-equals: oklch(0.66 0.15 52);
+  --calculator-equals-hover: oklch(0.61 0.16 48);
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.208 0.042 265.755);
-  --card-foreground: oklch(0.984 0.003 247.858);
-  --popover: oklch(0.208 0.042 265.755);
-  --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.929 0.013 255.508);
-  --primary-foreground: oklch(0.208 0.042 265.755);
-  --secondary: oklch(0.279 0.041 260.031);
-  --secondary-foreground: oklch(0.984 0.003 247.858);
-  --muted: oklch(0.279 0.041 260.031);
-  --muted-foreground: oklch(0.704 0.04 256.788);
-  --accent: oklch(0.279 0.041 260.031);
-  --accent-foreground: oklch(0.984 0.003 247.858);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.551 0.027 264.364);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.208 0.042 265.755);
-  --sidebar-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.279 0.041 260.031);
-  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.551 0.027 264.364);
+  --background: oklch(0.16 0.02 190);
+  --foreground: oklch(0.96 0.01 175);
+  --card: oklch(0.21 0.025 190);
+  --card-foreground: oklch(0.96 0.01 175);
+  --popover: oklch(0.21 0.025 190);
+  --popover-foreground: oklch(0.96 0.01 175);
+  --primary: oklch(0.72 0.12 165);
+  --primary-foreground: oklch(0.18 0.025 190);
+  --secondary: oklch(0.28 0.03 190);
+  --secondary-foreground: oklch(0.96 0.01 175);
+  --muted: oklch(0.28 0.03 190);
+  --muted-foreground: oklch(0.72 0.025 185);
+  --accent: oklch(0.31 0.045 175);
+  --accent-foreground: oklch(0.96 0.01 175);
+  --destructive: oklch(0.7 0.16 25);
+  --destructive-foreground: oklch(0.16 0.02 190);
+  --border: oklch(0.34 0.025 190);
+  --input: oklch(0.34 0.025 190);
+  --ring: oklch(0.72 0.12 165);
+  --chart-1: oklch(0.72 0.12 165);
+  --chart-2: oklch(0.76 0.13 52);
+  --chart-3: oklch(0.72 0.11 220);
+  --chart-4: oklch(0.8 0.12 95);
+  --chart-5: oklch(0.72 0.14 20);
+  --sidebar: oklch(0.21 0.025 190);
+  --sidebar-foreground: oklch(0.96 0.01 175);
+  --sidebar-primary: oklch(0.72 0.12 165);
+  --sidebar-primary-foreground: oklch(0.18 0.025 190);
+  --sidebar-accent: oklch(0.28 0.03 190);
+  --sidebar-accent-foreground: oklch(0.96 0.01 175);
+  --sidebar-border: oklch(0.34 0.025 190);
+  --sidebar-ring: oklch(0.72 0.12 165);
+  --calculator-panel: oklch(0.21 0.025 190);
+  --calculator-display: oklch(0.13 0.02 190);
+  --calculator-display-text: oklch(0.96 0.01 175);
+  --calculator-number: oklch(0.28 0.03 190);
+  --calculator-number-hover: oklch(0.34 0.035 190);
+  --calculator-utility: oklch(0.32 0.06 165);
+  --calculator-equals: oklch(0.76 0.13 52);
+  --calculator-equals-hover: oklch(0.7 0.14 48);
+}
+
+@layer components {
+  .calculator-page {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 1.25rem;
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+  }
+
+  .calculator-heading {
+    width: min(100%, 25rem);
+  }
+
+  .calculator-eyebrow {
+    margin: 0 0 0.35rem;
+    color: var(--color-primary);
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+  }
+
+  .calculator-eyebrow span {
+    padding-inline: 0.2rem;
+    color: var(--color-muted-foreground);
+  }
+
+  .calculator-heading h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .calculator {
+    width: min(100%, 25rem);
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    background: var(--calculator-panel);
+    box-shadow: 0 1.5rem 3.5rem -2rem oklch(0.22 0.025 190 / 35%);
+  }
+
+  .calculator-display {
+    min-height: 8.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 1.1rem 1.15rem 0.85rem;
+    border-radius: 0.35rem;
+    background: var(--calculator-display);
+    color: var(--calculator-display-text);
+  }
+
+  .calculator-expression {
+    align-self: stretch;
+    min-height: 1.1rem;
+    margin: 0;
+    overflow: hidden;
+    color: oklch(0.78 0.045 165);
+    font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .calculator-current {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    font-size: 3rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 550;
+    line-height: 1.15;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .calculator-current[data-compact="true"] {
+    font-size: 2rem;
+  }
+
+  .calculator-current[data-error="true"] {
+    color: oklch(0.78 0.14 45);
+    font-size: 2.25rem;
+  }
+
+  .calculator-error {
+    min-height: 1rem;
+    margin: 0;
+    color: oklch(0.78 0.14 45);
+    font-size: 0.7rem;
+  }
+
+  .calculator-keypad {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: clamp(3.25rem, 16vw, 4.25rem);
+    gap: 0.5rem;
+    padding-top: 0.75rem;
+  }
+
+  .calculator-key {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0.35rem;
+    font-size: 1.15rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .calculator-key:focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+
+  .key-number {
+    background: var(--calculator-number);
+    color: var(--color-foreground);
+  }
+
+  .key-number:hover {
+    background: var(--calculator-number-hover);
+  }
+
+  .key-clear {
+    background: var(--calculator-utility);
+    color: var(--color-foreground);
+  }
+
+  .key-clear:hover,
+  .key-utility:hover {
+    background: var(--color-accent);
+  }
+
+  .key-utility {
+    background: var(--calculator-utility);
+    color: var(--color-foreground);
+    font-size: 1.35rem;
+  }
+
+  .key-operator {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    font-size: 1.35rem;
+  }
+
+  .key-operator:hover {
+    background: var(--color-accent);
+  }
+
+  .key-equals {
+    grid-row: span 2;
+    background: var(--calculator-equals);
+    color: oklch(0.2 0.03 45);
+    font-size: 1.4rem;
+  }
+
+  .key-equals:hover {
+    background: var(--calculator-equals-hover);
+  }
+
+  .key-zero {
+    grid-column: span 2;
+  }
+
+  @media (max-width: 420px) {
+    .calculator-page {
+      justify-content: flex-start;
+      gap: 1.15rem;
+      padding: max(2rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
+    }
+
+    .calculator-keypad {
+      gap: 0.4rem;
+      grid-auto-rows: 3.55rem;
+    }
+  }
 }
 
 @layer base {
