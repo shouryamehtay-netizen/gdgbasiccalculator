@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+Calculator arithmetic stays in a pure utility module, with display and keypad UI split into focused components to keep the first-screen example beginner-readable.
